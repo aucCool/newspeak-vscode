@@ -4,7 +4,7 @@
 
 ## Features
 
-Based on Tomás D'Stefano tmLanguage (available [here](https://github.com/tomas-stefano/smalltalk-tmbundle/blob/master/Syntaxes)) , this extension will provide you basic support for Smalltalk language : 
+Based on Tomás D'Stefano tmLanguage (available [here](https://github.com/tomas-stefano/smalltalk-tmbundle/blob/master/Syntaxes)), this extension will provide you basic support for Smalltalk language : 
 * syntax highlighting 
 * a few snippets
 
@@ -21,6 +21,9 @@ Syntax highlighting is better supported under some color themes (Monokai for ins
 
 ## Release Notes
 
+### 0.1.0
+
+Initial release for the Newspeak language.
 
 ### 0.0.1
 

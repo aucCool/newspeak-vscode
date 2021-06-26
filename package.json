@@ -1,0 +1,51 @@
+{
+    "name": "newspeak",
+    "displayName": "Newspeak",
+    "description": "Newspeak language support for VS Code",
+    "version": "0.0.1",
+    "publisher": "aucCool",
+    "icon": "images/icon.png",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Programming Languages",
+        "Snippets",
+        "Formatters"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "newspeak",
+                "aliases": [
+                    "Newspeak",
+                    "newspeak"
+                ],
+                "extensions": [
+                    ".ns"
+                ],
+                "configuration": "./smalltalk.configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "newspeak",
+                "scopeName": "source.smalltalk",
+                "path": "./syntaxes/Smalltalk.tmLanguage"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "newspeak",
+                "path": "./snippets/smalltalk.json"
+            }
+        ]
+    },
+    "activationEvents": [
+        "onLanguage:newspeak"
+    ],
+    "repository":"https://github.com/aucCool/newspeak-vscode",
+    "main": "./out/extension.js"
+
+    
+}
