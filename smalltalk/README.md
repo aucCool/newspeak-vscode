@@ -1,7 +1,7 @@
 # Smalltalk
 
-Smalltalk language support for Visual Studio Code. ([GitHub Repository](https://github.com/PleasedSkin/smalltalk-vscode)
-)
+([Newspeak language](https://newspeaklanguage.org/)) support for Visual Studio Code, based on the Smalltalk extention that can be found on ([GitHub](https://github.com/PleasedSkin/smalltalk-vscode))
+
 ## Features
 
 Based on Tomás D'Stefano tmLanguage (available [here](https://github.com/tomas-stefano/smalltalk-tmbundle/blob/master/Syntaxes)) , this extension will provide you basic support for Smalltalk language : 
